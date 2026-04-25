@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dreamstime Foods</title>
+  </head>
+
+  <body>
+    <div>
+      <header>
+        <h1>Dreamstime Foods</h1>
+        <p id="italics">Where dreams become reality</p>
+      </header>
+    </div>
+    <br>
+
+    <div>
+      <nav>
+        <img src="https://www.shutterstock.com/image-vector/retro-vector-french-fries-character-600w-2630901863.jpg" height="250" id="logo">
+        <ul id="border1">
+          <li>
+            <a href="http://127.0.0.1:3000/Web%201.html?vscode-livepreview=true">Home</a>
+          </li>
+
+          <li id="menu_button">
+            <select id="menu" name="fruit">
+              <option value="menu" disabled selected>Menu</option>
+              <option value="fries">Fries</option>
+              <option value="burger">Burger</option>
+              <option value="Milkshake">Milkshake</option>
+            </select>
+          </li>
+
+          <li>
+            <a href="https://contactinfo.com/about-us/">About</a>
+          </li>
+
+          <li>
+            <a href="https://contactinfo.com/">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div>
+      <img src="https://thumbs.dreamstime.com/b/burger-fries-served-plate-next-to-milkshake-glass-image-has-nostalgic-retro-vibe-reminiscent-diner-fast-381910421.jpg?w=576" width="1500" height="500">
+    </div>
+
+    <p id="special">Our Friday special, Burger, milkshake and a side of fries.</p>
+
+    <div>
+      <form>
+        <b>Customer Feedback...</b>
+        <p>Rate your experience:</p>
+
+        <label for="1star"> 1</label>
+        <input type="radio" name="rating" id="1star" required><br>
+
+        <label for="2star"> 2</label>
+        <input type="radio" name="rating" id="2star"><br>
+
+        <label for="3star"> 3</label>
+        <input type="radio" name="rating" id="3star"><br>
+
+        <label for="4star"> 4</label>
+        <input type="radio" name="rating" id="4star"><br>
+
+        <label for="5star"> 5</label>
+        <input type="radio" name="rating" id="5star"><br>
+        <br>
+
+        <input type="text" placeholder="Insert your name" id="name" required><br>
+        <br>
+
+        <textarea placeholder="Let us hear from you..." id="comments" name="comments" required></textarea><br>
+        <button for="rating">Submit</button>
+      </form>
+    </div>
+    <br>
+
+    <div id="instagram">
+        <nav>
+        <footer>
+        <p>© 2026 Dreamstime foods</p>
+        <p>Follow our instagram page <a href="https://www.instagram.com/khawlee_scorpius/">here</a></p>
+      </footer>
+        </nav>
+    </div>
+  </body>
+</html>
+
+<style>
+   body {
+        background-color: rgb(224, 172, 105);
+    }
+
+    h1{
+        text-align: center;
+        font-size: 60px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    #italics{
+        text-align: center;
+        font-style: oblique;
+        font-size: 20px;
+    }
+    
+    #border1{
+        border-color: antiquewhite;
+        background-color: rgba(255, 255, 255, 0.545);
+        border-left-width: 67px;
+    }
+
+    #border1:hover { background-color: antiquewhite;
+
+    }
+
+    #menu{
+        text-align: center;
+    }
+
+    #logo{
+  display: block;
+  margin: 0 auto;
+}
+
+    #special{
+        text-align: end;
+        font-style: italic;
+    }
+ 
+    #name{
+        border-color: black;
+        width: 256px;
+        padding: 5px;
+
+    }
+
+    #comments{
+        border-color: black;
+        width: 250px;
+        padding: 8px;
+        border-style: solid;
+        border-color: rgb(7, 7, 7);
+        border-width: 2px;
+    }
+
+    #instagram{
+        padding-top: 10px;
+        background-color: antiquewhite;
+        background-color: rgba(143, 82, 3, 0.718);
+        padding-bottom: 6px;
+        text-align: center;
+        width: 1513px;
+    }
+
+</style>
